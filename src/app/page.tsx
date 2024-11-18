@@ -2,8 +2,8 @@
 
   export default function Home() {
     return (
-      <main>
+      <section className="container mainContainer">
         <h1 className='title'>Dogs Next</h1>
-      </main>
+      </section>
     );
   }
