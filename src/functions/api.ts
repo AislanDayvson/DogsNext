@@ -8,15 +8,9 @@ export function TOKEN_POST(){
     }
 }
 
-export function USER_GET(token) {
+export function USER_GET() {
     return {
       url: API_URL + '/api/user',
-      options: {
-        method: 'GET',
-        headers: {
-          Authorization: 'Bearer ' + token,
-        },
-      },
     };
   }
 
