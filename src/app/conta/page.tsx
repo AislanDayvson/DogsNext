@@ -1,15 +1,16 @@
-'use client'
 
-import { useUser } from "@/context/user-context"
+import { Metadata } from "next"
 
+export const metadata: Metadata = {
+    title: 'Minha Conta',
+    description: ''
+}
 
 export default async function ContaPage(){
-    const {user} = useUser()
 
-    console.log(user)
     return(
         <main>
-            <h1 onClick={() => console.log('Clicou')}>Conta: {user?.nome}</h1>
+            <h1>Conta</h1>
         </main>
     )
 }
