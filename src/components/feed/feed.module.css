@@ -59,3 +59,15 @@
         grid-row: initial;
     }
 }
+
+.loadingWrapper{
+    display: flex;
+    height: 100px;
+    margin: 1rem auto;
+}
+
+.loadingWrapper p{
+    text-align: center;
+    margin: auto;
+    color: #888;
+}
