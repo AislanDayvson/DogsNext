@@ -17,4 +17,5 @@ export default function FeedPhotos({photos}: {photos: Photo[]}){
                 ))}
             </ul>
     )
+    
 }
